@@ -4,7 +4,7 @@ Five Obsidian-ready markdown templates that turn a sprawling vault into a graph-
 
 Built by [Synapse Dynamics Segmented](https://github.com/dailenservices247-cloud). Free under MIT, or pay $19 to support the work. Either way, all content here is identical.
 
-[Pay $19, support the work](https://buy.stripe.com/REPLACE_WITH_PAYMENT_LINK)
+[Pay $19, support the work](https://buy.stripe.com/dRmeV50QV8KM0O647xbjW01)
 &nbsp;&nbsp;|&nbsp;&nbsp;
 [Just take it](https://github.com/dailenservices247-cloud/atomic-note-pack/archive/refs/heads/main.zip)
 
@@ -111,7 +111,7 @@ MIT. Use the templates in your own work, your clients' work, anywhere. Attributi
 
 ## Support the work
 
-If this pack saves you time, or your AI agent stops rediscovering things you already wrote down, consider [paying $19](https://buy.stripe.com/REPLACE_WITH_PAYMENT_LINK). It funds the next round of canon and template work.
+If this pack saves you time, or your AI agent stops rediscovering things you already wrote down, consider [paying $19](https://buy.stripe.com/dRmeV50QV8KM0O647xbjW01). It funds the next round of canon and template work.
 
 ## Author
 
