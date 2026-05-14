@@ -12,11 +12,11 @@ related_to: [decision-2026-05-14-atomic-node-going-forward]
 
 ## Hypothesis
 
-Mass sed replacement of `—` (em-dash) with `, ` (comma + space) across all Sprint 0 markdown output would resolve the brand-voice linter's em-dash violations without breaking sentence structure or introducing new ambiguity.
+Mass sed replacement of the em-dash character with a comma plus space across all Sprint 0 markdown output would resolve the brand-voice linter's em-dash violations without breaking sentence structure or introducing new ambiguity.
 
 ## Test
 
-Ran `sed -i '' -e 's/ — /, /g' -e 's/—/, /g'` against 25 new Sprint 0 docs spanning Decisions, Inferences, Retrieval Contracts, Inventories, Templates, and rolling indexes. Re-ran brand-voice-lint on all 25 files to count remaining violations.
+Ran a two-pass sed against 25 new Sprint 0 docs spanning Decisions, Inferences, Retrieval Contracts, Inventories, Templates, and rolling indexes (pass 1 replaced space-em-space with comma-space; pass 2 caught any bare em-dash that remained). Re-ran brand-voice-lint on all 25 files to count remaining violations.
 
 **Tools:** GNU sed (BSD variant on macOS), brand-voice-lint v0.
 **Sample size:** 25 documents, 86 total em-dash occurrences pre-test.
@@ -34,4 +34,4 @@ Brand-Voice Linter is now the gating tool for any session output containing em-d
 
 ## Status
 
-`passed` — substitution is safe + reversible at session scale.
+`passed`, substitution is safe + reversible at session scale.

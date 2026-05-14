@@ -26,4 +26,4 @@ Rewriting the legacy corpus to atomic format = months of work. Continuing the ro
 
 ## Status
 
-`locked` — all new captures atomic-typed since 2026-05-14.
+`locked`, all new captures atomic-typed since 2026-05-14.

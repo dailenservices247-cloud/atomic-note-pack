@@ -4,7 +4,7 @@ Five Obsidian-ready markdown templates that turn a sprawling vault into a graph-
 
 Built by [Synapse Dynamics Segmented](https://github.com/dailenservices247-cloud). Free under MIT, or pay $19 to support the work. Either way, all content here is identical.
 
-[Pay $19 — support the work](https://buy.stripe.com/REPLACE_WITH_PAYMENT_LINK)
+[Pay $19, support the work](https://buy.stripe.com/REPLACE_WITH_PAYMENT_LINK)
 &nbsp;&nbsp;|&nbsp;&nbsp;
 [Just take it](https://github.com/dailenservices247-cloud/atomic-note-pack/archive/refs/heads/main.zip)
 
@@ -28,17 +28,17 @@ The atomic-node format inverts this. Each decision, each inference, each context
 
 Four atom types is the minimum that maps onto how knowledge actually accumulates in a working business:
 
-- **Decision** — you locked a choice; the alternatives matter for future reversibility
-- **Inference** — you pulled a pattern from one or more sources; the source chain matters for credibility
-- **Context** — you captured a moment; later you'll need to know what was true when
-- **Test** — you ran an experiment or eval; the result matters more than your hypothesis
+- **Decision**, you locked a choice; the alternatives matter for future reversibility
+- **Inference**, you pulled a pattern from one or more sources; the source chain matters for credibility
+- **Context**, you captured a moment; later you'll need to know what was true when
+- **Test**, you ran an experiment or eval; the result matters more than your hypothesis
 
 Four edge types is the minimum that lets the graph compound:
 
-- `supports` — this node strengthens that one
-- `derived_from` — this node came from that one
-- `contradicts` — this node disagrees with that one
-- `related_to` — same depth, no strict dependency
+- `supports`, this node strengthens that one
+- `derived_from`, this node came from that one
+- `contradicts`, this node disagrees with that one
+- `related_to`, same depth, no strict dependency
 
 Resist adding new edge types until a pattern repeats 3+ times. The discipline is the point.
 
@@ -101,8 +101,8 @@ The agent will start producing atomic-node output instead of rolling-log paragra
 
 This format derives from:
 
-- AI Impact's "Infinite Brain" concept (2025) — atomic typed nodes with cheap scan layer
-- Nate B Jones' memory-wars analysis (2026) — retrieval contracts before infrastructure
+- AI Impact's "Infinite Brain" concept (2025), atomic typed nodes with cheap scan layer
+- Nate B Jones' memory-wars analysis (2026), retrieval contracts before infrastructure
 - Synapse Dynamics Segmented's own production discipline since 2026-05-14, when the format was locked in `~/.claude/CLAUDE.md` as the going-forward memory format
 
 ## License

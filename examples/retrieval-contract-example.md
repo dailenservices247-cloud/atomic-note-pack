@@ -37,12 +37,12 @@ status: piloted
 ## Anti-patterns banned
 
 - Re-reading `~/.claude/handoffs/synapse.md` from scratch every turn (load once, reference, update at end)
-- Re-asking known brand decisions (palette, type, mascot lock) — they're locked
-- Searching `lib/content/services.ts` for the catalog — it's in this contract via the inference link
-- Loading entire `~/.claude/canon/` directory at once — use Doctrine Injection 2-prompt sequence with 2-4 sources max
+- Re-asking known brand decisions (palette, type, mascot lock), they're locked
+- Searching `lib/content/services.ts` for the catalog, it's in this contract via the inference link
+- Loading entire `~/.claude/canon/` directory at once, use Doctrine Injection 2-prompt sequence with 2-4 sources max
 - Generating copy without first running it through banned-words check
-- Re-discovering Brand v3 anti-patterns mid-session — they're locked in `~/.claude/CLAUDE.md`
+- Re-discovering Brand v3 anti-patterns mid-session, they're locked in `~/.claude/CLAUDE.md`
 
 ## Status
 
-`piloted` — drafted 2026-05-14, in use across first 5 sessions. Will promote to `locked` after 30 days of stable use.
+`piloted`, drafted 2026-05-14, in use across first 5 sessions. Will promote to `locked` after 30 days of stable use.

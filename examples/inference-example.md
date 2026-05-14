@@ -30,4 +30,4 @@ Email-gated PDF: low intent capture. Free calculator: doesn't compound beyond on
 
 ## Status
 
-`banked` — drove the L1 SDS Skill Pack build, locked 2026-05-14.
+`banked`, drove the L1 SDS Skill Pack build, locked 2026-05-14.
